@@ -1,0 +1,27 @@
+network:
+    version: 2
+    ethernets:
+        eth1:
+            dhcp4: true
+            match:
+                macaddress: fa:16:3e:1a:9a:01 
+            mtu: 1500
+            set-name: eth1
+        eth2:
+            dhcp4: true
+            match:
+                macaddress: fa:16:3e:1c:af:fe 
+            mtu: 1500
+            set-name: eth2
+        eth3:
+            dhcp4: true
+            match:
+                macaddress: fa:16:3e:59:f7:c7 
+            mtu: 1500
+            set-name: eth3
+        eth4:
+            dhcp4: true
+            match:
+                macaddress: fa:16:3e:01:68:16
+            mtu: 1500
+            set-name: eth4
